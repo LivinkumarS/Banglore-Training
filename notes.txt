@@ -1,0 +1,97 @@
+Frontend Development
+------------------------
+website: Collection of webpages.
+webpage: it is a single document from a website with navigatable links.
+
+to create webpage---> HTML, CSS, JS.
+
+HTML--> Hyper Text Markup Language.
+adds content and structure...
+
+Hyper Text---> Link--> the text that navigates you to another destiny/.
+Markup---> symbol to format and structure the contents.
+
+Tags---> <>-->opening   </>--> closing tag.
+Void---> opening tag alone (<>)
+No Void--> opening and closing tag.(<></>).
+
+path:
+-----
+parent---> ../
+child----> /
+sibiling-> ./
+
+Commenting
+--------------
+
+<!--    comment  --> ---> in VS code ctrl+/
+
+Attribute
+-----------
+Additional Information about the tag.
+< name="value"></>
+
+extension---> .html --> the first html file (index.html)
+
+Boiler Plate:
+----------------
+Basic Strycture--> html, head, body
+<!DOCTYPE html>---> refers the version of HTML
+html---> head, body
+head---> metadata of the webpage..(metadata--> the details about the webpage)
+body---> the contents of that webpage
+
+
+Basic Tags 
+----------
+
+Heading Tags---> h1,h2....h6 (to add titles in webpage).
+paragraph----> p ---> format the contents by seperating it.
+
+
+Unordered List (the list will not have numbering. it will have a symbol as a prefix instead)
+---------------
+ul, li.
+
+Ordered List (the list will have numbering.)
+---------------
+ol, li.
+
+Anchor tag 
+-----------
+a--->To create a link using it.
+href="link", target="_blank".
+
+Div tag--->  Divide the contents using a seperate box.
+
+br--> break (void tag)
+hr---> void tag (horizontal line)
+
+img---> add image..(void).
+src---> link to the image.
+alt--> alternate keyword.
+
+Text Formatting Tags.
+---------------------
+b--->bold tag
+sup---> super script
+ins---> underline
+del--> deleted text
+mark--> highlight
+
+Entities
+--------
+Used to represent symbols and characters.
+&---;
+
+Tables
+------
+
+table---> parent tag for the table.
+table---> thead, tbady
+
+tr---> Table Row.
+th---> Table head element
+td---> Table Data.
+
+px--> 0.27mm
