@@ -135,5 +135,70 @@
         </tbody>
     </table>
 
+
+    <hr>
+
+    <h1>Form</h1>
+
+    <!-- 
+    UserName=""
+    Mobile=""
+    Password=""
+    Email=""
+    DateOfBirth=""
+    Gender=""
+    isMarried=off
+     -->
+
+
+    <form action="" method="">
+
+      <label for="name">Name: </label>
+      <input type="text" name="UserName" placeholder="Name" id="name" required><br>
+      
+      <label for="mobile">Mobile: </label>
+      <input type="number" name="Mobile" placeholder="Mobile" id="mobile"><br>
+
+      <label for="pass">Password: </label>
+      <input type="password"  name="Password" placeholder="Password" id="pass"><br>
+
+      <label for="email">Email: </label>
+      <input type="email" name="Email" placeholder="Email" id="email"><br>
+
+      <label for="dob">DOB: </label>
+      <input type="date" name="DateOfBirth" id="dob"><br>
+
+      <!-- Radio -->
+
+      <label for="male">Male: </label>
+      <input type="radio" value="boy" name="Gender" id="male">
+
+      <label for="female">Female: </label>
+      <input type="radio" value="girl" name="Gender" id="female">
+
+      <label for="others">Others: </label>
+      <input type="radio" value="others" name="Gender" id="others"><br>
+
+
+      <!-- Checkbox -->
+
+      
+      <label for="mar">Are You Taken?: </label>
+      <input type="checkbox" name="isMarried" id="mar"><br>
+      
+      <label for="vote">Can Vote?: </label>
+      <input type="checkbox" name="canVote" id="vote"><br>
+      
+      
+
+      <input type="reset"><br>
+
+
+      <input type="submit">
+
+      
+
+    </form>
+
   </body>
 </html>

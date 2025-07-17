@@ -29,6 +29,7 @@ Commenting
 Attribute
 -----------
 Additional Information about the tag.
+id, class... common for all the HTML tags
 < name="value"></>
 
 extension---> .html --> the first html file (index.html)
@@ -94,4 +95,15 @@ tr---> Table Row.
 th---> Table head element
 td---> Table Data.
 
-px--> 0.27mm
+px--> 0.27mm.
+
+Forms.
+------
+form--> parent tag.
+input tag---> void tag. used to create input fields.
+name---> defines the input field.
+required.
+type---> text, number, password, email, date, radio
+
+
+description---> placeholder, label tag
