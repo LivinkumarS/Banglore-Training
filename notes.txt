@@ -153,4 +153,14 @@ Color property:
 ----------------
 background-color: value; 
 1) keyword.
-2) RGB---> Red, Green, Blue--> rgb(rat1, rat2, rat3). (0,255)
+2) RGB---> Red, Green, Blue--> rgb(rat1, rat2, rat3). (0-255).
+3) hex code---> #xxxxxx.
+
+Text properties.
+-------------------
+color---> assign color to text.
+font-size---> defines size of text.(keyword)(using numerics with unit. ex: px, pt, cm, in.....).
+font-weight---> defines thickness of text.(100-900, keyword).
+font-style---> styling to text.
+font-family---> defines font family of the selected text.(default values, we can choose from browser too.)
+text-align---> start, end, center, justify.
