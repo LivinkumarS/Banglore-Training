@@ -107,3 +107,50 @@ type---> text, number, password, email, date, radio
 
 
 description---> placeholder, label tag
+
+
+CSS
+----
+Cascading Style Sheet.
+Used to style the HTML Contents.
+
+commenting--->/* Tag name selector */
+
+cascade--->
+
+Types of way to insert styling:
+-------------------------------
+Internal ---> <style> inside head
+External ---> different file dedicated for styling. <link> inside head
+Inline.
+
+Syntax of CSS.
+---------------
+selector{
+    property1: value1;
+    property2: value2;
+    .
+    .
+    .
+}
+
+Selectors:
+-----------
+Tag name selector---> tag's name as a selector.(it will select all the tags with the given tag name).
+
+class name selector---> class attribue. single tag can hold multiple different class names. the class name can be repeated amoung different tag. to select it, you should use "." as a prefix.
+
+id name selector---> id attribute. single tag can hold only one id name. the Id name cannot be repeated. # as a prefix.
+
+Universal Selector---> It will select all the tags.(*)
+
+id name > class > tag > *
+
+
+Properties:
+-----------
+Color property:
+----------------
+background-color: value; 
+1) keyword.
+2) RGB---> Red, Green, Blue--> rgb(rat1, rat2, rat3). (0,255)
