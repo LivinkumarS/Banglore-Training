@@ -177,6 +177,29 @@ used to define the content's size.
 3) padding--->used to add space between the content and the border
 
 4) Boder---> space that wraps around the whole element.
-5) margin-->Space between elements and the screen border.
+5) margin-->Space between elements and the screen border. (auto---> that content will have enough margin on it's both sides to make it center on screen)
 6) Border Radius.
-7) Box-sizing ---> content-box(total width=content's width+padding+border). border-box(tatal width= width property value)
+7) Box-sizing ---> content-box(total width=content's width+padding+border). border-box(tatal width= width property value).
+
+Units in CSS
+-------------
+Absolute Units
+---------------
+Fixed Units--> Do not change due to any factor.
+px--> Pixel(most commonly used). 0.2658mm.
+pt--> Point. 0.35mm
+cm, in, mm....
+
+Relative Units
+--------------
+Flexible Units --> Adapt based on other elaments or viewport.
+
+em---> used to maintain the fontsize. this is relative to the parent element. 1em--> 100% of parent's font size. 2em 200%. 1.5em---> 150%
+
+rem---> Root em ---> relative to root element(html) (16px). 1rem--> 100% of html's font size. 2rem---> 200%.
+
+Percentage---> width, height, padding, margin--> relative to the parent. (content width and height). (padding, margin--> parent's width value).
+
+vw---> viewport width----> relative to viewport's width. 100vw---> 100% of vw. 120vw---> 120% of vw.. 80vw-->80% of vw.
+
+vh---> Viewport height---> relative to viewport's height

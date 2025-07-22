@@ -1,60 +1,21 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-div{
-    width: 500px;
-    height: 100px;
-    font-size: 30px;
-    /* height: 400px; */
-    background-color: aqua;
-    /* padding: 30px 40px 50px 60px; */
-    /* padding: 30px 40px; */
-    padding: 10px;
-    /* padding-top: 30px;
-    padding-right: 40px;
-    padding-bottom: 50px;
-    padding-left: 60px; */
-
-    border: 2px black solid;
-    /* margin: 40px; */
-    margin: 40px 50px;
-
-    /* border-radius: 100px; */
-
-    /* box-sizing: content-box; */
-    /* box-sizing: border-box; */
-
-    /* border: 2px;
-    border-color: red;
-    border-style: solid; */
-
-
+html {
+  font-size: 20px;
 }
 
-
-h1{ 
-    background-color: blueviolet;
-    margin: 20px;
-    /* background-color: rgb(139, 146, 34); */
-    color: green;
-    text-align: center;
-
-    /* width: 200px; */
-    /* height: 200px; */
-    /* padding: 20px; */
-
+.parent {
+  background-color: aqua;
+  width: 50vw;
+  height: 100vh;
+  padding: 50px;
+  margin: 20px auto;
 }
 
-
-
-p{
-    padding: 20px;
-    font-size: 20px;
-    font-weight: lighter;
-    /* font-style: italic; */
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: justify;
+.child {
+  background-color: blueviolet;
 }
