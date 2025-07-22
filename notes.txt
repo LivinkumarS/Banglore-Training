@@ -164,3 +164,19 @@ font-weight---> defines thickness of text.(100-900, keyword).
 font-style---> styling to text.
 font-family---> defines font family of the selected text.(default values, we can choose from browser too.)
 text-align---> start, end, center, justify.
+
+
+Box Modelling
+-----------------
+Every element in a webpage will be considered as a box.
+
+used to define the content's size.
+1) width---> Horizontal Distance 
+2) height--> Veritical Distance
+
+3) padding--->used to add space between the content and the border
+
+4) Boder---> space that wraps around the whole element.
+5) margin-->Space between elements and the screen border.
+6) Border Radius.
+7) Box-sizing ---> content-box(total width=content's width+padding+border). border-box(tatal width= width property value)
