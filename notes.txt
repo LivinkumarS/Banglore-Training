@@ -156,9 +156,20 @@ Pseudo-selector
 ------------------
 used to select an element in particular state or  select a particularpart of an element.
 
-Classes (:)
+Classes (:) (select an element in particular state)
 ------------
 hover---> when we hover over the element.
+focus---> input tag focusing.
+first-child, last-chid, nth-child(number) ---> selects a child in particular position.
+
+Elements (::) (selects a particular part of an element)
+-----------
+first-letter--> selects only the first letter
+first-line--> selects only the first line.
+
+before--> we can add and style some contents before an element.
+
+after--> we can add and style some contents after an element.
 
 Properties:
 -----------

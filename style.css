@@ -4,8 +4,22 @@
   box-sizing: border-box;
 }
 
-.box1 > p,
-body > p {
-  font-size: larger;
-  font-weight: bolder;
+h1:hover{
+  background-color: red;
+}
+
+input:focus{
+  background-color: aqua;
+}
+
+li:nth-child(3){
+  color: chartreuse;
+}
+
+p::after{
+
+  content: "Good Morning";
+
+  font-size: 50px;
+  color: cadetblue;
 }
