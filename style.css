@@ -4,18 +4,8 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 20px;
-}
-
-.parent {
-  background-color: aqua;
-  width: 50vw;
-  height: 100vh;
-  padding: 50px;
-  margin: 20px auto;
-}
-
-.child {
-  background-color: blueviolet;
+.box1 > p,
+body > p {
+  font-size: larger;
+  font-weight: bolder;
 }

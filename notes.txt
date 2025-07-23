@@ -144,8 +144,21 @@ id name selector---> id attribute. single tag can hold only one id name. the Id 
 
 Universal Selector---> It will select all the tags.(*)
 
-id name > class > tag > *
+id name > class > tag > *.
 
+Special Types of Selector
+--------------------------
+Descendant Secector ---> This selects the descendant tags. (tag1 tag2)
+Direct Descendant(child selector) ---> this selects only the child. (tag1>tag2)
+grouping---> tag1, tag.(,)
+
+Pseudo-selector
+------------------
+used to select an element in particular state or  select a particularpart of an element.
+
+Classes (:)
+------------
+hover---> when we hover over the element.
 
 Properties:
 -----------
