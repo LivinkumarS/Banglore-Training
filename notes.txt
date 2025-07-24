@@ -227,3 +227,41 @@ Percentage---> width, height, padding, margin--> relative to the parent. (conten
 vw---> viewport width----> relative to viewport's width. 100vw---> 100% of vw. 120vw---> 120% of vw.. 80vw-->80% of vw.
 
 vh---> Viewport height---> relative to viewport's height
+
+
+Positioning
+------------
+Document Flow:(normail flow)
+--------------
+elements will be arranged on to and left most corner.
+
+
+CSS position properties control how an element is placed in the document. It has five main values.
+
+top, bottom, left and right.
+
+Static
+-------
+position: static;
+>> that element will not be removed from document flow.
+>> top,bottom,left,right--> these properties will not work.
+
+Relative
+--------- (relative to it's original position)
+position: relative;
+>> that element will not be removed from document flow.
+>> top,bottom,left,right--> these properties will work.
+
+ex: top:20px---> move towards bottom for 20px, bottom:20px-->top for 20px.
+
+Absolute 
+--------- (relative to it's NPA(Nearest Positioned Ancestor))
+position: absolute;
+
+NPA--> The nearest Ancestor with relative, fixed or absolute positioning property.
+
+
+>> that element will be removed from document flow.
+>> top,bottom,left,right--> these properties will work.
+
+ex: top: 10px--> the gap between the NPA's top and this element's top will be 10px, 

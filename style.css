@@ -4,6 +4,51 @@
   box-sizing: border-box;
 }
 
-#head{
-  color: green;
+/* div{
+  background-color: aqua;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+} */
+
+/* .parent{
+  position: static;
+  top: 50px;
+  left: 50px;
+} */
+
+/* .parent{
+  background-color: blueviolet;
+  position: relative;
+  left: 400px;
+  top: 200px;
+} */
+
+body{
+  position: relative;
+}
+
+.parent{
+  position: relative;
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
+  margin: 30px auto;
+}
+
+.child{
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+}
+
+/* parent,body,html.
+parent, body
+parent--> NPA */
+
+
+.child1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
