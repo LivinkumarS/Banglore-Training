@@ -122,7 +122,7 @@ Types of way to insert styling:
 -------------------------------
 Internal ---> <style> inside head
 External ---> different file dedicated for styling. <link> inside head
-Inline.
+Inline---> style attribute in the corresponding tag itself
 
 Syntax of CSS.
 ---------------
@@ -144,7 +144,7 @@ id name selector---> id attribute. single tag can hold only one id name. the Id 
 
 Universal Selector---> It will select all the tags.(*)
 
-id name > class > tag > *.
+inline > id name > class > tag > *.
 
 Special Types of Selector
 --------------------------
