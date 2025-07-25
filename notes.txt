@@ -265,3 +265,23 @@ NPA--> The nearest Ancestor with relative, fixed or absolute positioning propert
 >> top,bottom,left,right--> these properties will work.
 
 ex: top: 10px--> the gap between the NPA's top and this element's top will be 10px, 
+
+Fixed
+------(Positioned Relative to the viewport)
+>> that element will be removed from document flow.
+>> Stays fixed at the place when the page scrolls.
+
+Sticky
+-------
+Hybrid of Relative and Fixed.
+
+>>Acts like relative until a scroll threshold is met, then it becomes fixed.
+
+
+Z-index 
+---------
+>> works only in positioned elements. (relative, absolute,fixed and sticky).
+
+defaultly--->0(-999 to 999)
+Higher z-index =appears on top.
+Lower z-index= appears underneath

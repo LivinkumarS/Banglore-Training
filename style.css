@@ -9,9 +9,6 @@ body{
   position: relative;
 }
 
-
-
-
 .parent{
   position: relative;
   border: 1px solid black;
@@ -31,3 +28,25 @@ body{
   right: 20%;
   bottom: 20%;
 }
+
+/* .fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100px;
+  background-color: yellow;
+} */
+
+.navbar{
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  z-index: 1;
+}
+
+
