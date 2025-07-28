@@ -285,3 +285,52 @@ Z-index
 defaultly--->0(-999 to 999)
 Higher z-index =appears on top.
 Lower z-index= appears underneath
+
+
+Transform
+---------
+the transform property in CSS used to visually manipulate elements on a webpage. it allows you to move, rotate, scale... withiout affecting the document flow.
+
+transform: transform-function(value);
+
+Translate:
+----------
+%--> relative to won width, height.
+X--> + --> right, - --> left
+Y--> + --> bottom, - --> top
+Moves an element from it's current position.
+translateX(val)
+translateY(val)
+translate(val1,val2)
+
+scale 
+------
+resizes the element.
+scaleX(val)
+scaleY(val)
+scale(val)
+
+1---> 100% of it's original size 
+2---> 200% of it's original size 
+
+rotate 
+------
+rotating the element.
+rotate(val)
+0-360
++---> clockwise
+- anticlockwise.
+
+ratateX(val)---> rotation in 3D.
+ratateY(val)---> rotation in 3D.
+
+skew
+-----
+tilts the element.
+skewX(val)
+skewY(val)
+skew(val1,val2)
+
+combining:
+----------
+transform: translate(30px,50px) scale(2) rotate(30deg);
