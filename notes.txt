@@ -334,3 +334,40 @@ skew(val1,val2)
 combining:
 ----------
 transform: translate(30px,50px) scale(2) rotate(30deg);
+
+Display Property 
+-----------------
+
+Block Level Elements.
+------------------------
+>>It takes up full available width, regardless of it's content.
+>>It always start on a new line.
+>>Width and Height can be assigned.
+
+Ex: div, p, h1-h6, ul, li.....
+
+Inline Elements 
+----------------
+>>It won't take full width, takes only content width.
+>>It will not start on a new line.
+>>Width and height cannot be assigned.
+
+Ex: a, span...
+
+Inline block Elements
+----------------------
+It is Hybrid of Inline and Block level 
+
+>>It won't take full width, takes only content width.
+>>It will not start on a new line.
+>>Width and Height can be assigned.
+
+ex:img...
+
+
+Using Display property we can change the display characteristics of any element.
+
+display: block;
+display: inline;
+display: inline-block;
+display: none; ---> the element will be removed from document.
