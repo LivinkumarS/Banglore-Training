@@ -371,3 +371,31 @@ display: block;
 display: inline;
 display: inline-block;
 display: none; ---> the element will be removed from document.
+
+
+Flex
+------ (display: flex;)
+1) Flex container
+--------------------
+the parent element where display:flex; prop is applied.
+2) Flex Items
+---------------
+the direct children of that flex container are called flex iteme
+
+Flex Axes
+----------
+to control the direction --> flex-direction: row, column, column-reverse, row-reverse;(Default--> row)
+
+main axis---> Direction of items .
+cross axis--> Perpendicular to the main axis.
+
+Justify-content
+----------------(main axis arrangement.)
+Arrange the item along the main axis.
+
+justify-content: flex-start, flex-end, center, space-around, space-evenly, space-between; (start)
+
+Align-items
+-------------(cross axis arrangement)
+Arrange the item along the cross axis.
+align-items: flex-start, flex-end, center, stretch; (stretch)
