@@ -4,23 +4,31 @@
   box-sizing: border-box;
 }
 
-.container{
-
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  gap: 10px;
+  flex-wrap: wrap;
+  align-content: center;
 
   border: 1px solid black;
-  width: 500px;
+  /* width: 500px; */
   height: 500px;
   margin: 30px auto;
-
+  margin: 10px;
+  padding: 10px;
 }
 
-.container>div{
-
+.container > div {
   width: 100px;
   height: 100px;
   background-color: aqua;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+
+.container>.child1{
+  flex-basis: 200px;
 }

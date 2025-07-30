@@ -399,3 +399,37 @@ Align-items
 -------------(cross axis arrangement)
 Arrange the item along the cross axis.
 align-items: flex-start, flex-end, center, stretch; (stretch)
+
+Gap 
+-----
+add a space between flex items.
+gap: 10px;
+
+Flex wrap 
+----------
+By default, Flex Items are in a single line when direction is either row or row-reverse.
+wrap allows them to move to the next line.
+
+flex-wrap: wrap;(default--> nowrap).
+
+the element will not shirnk beyond it's width
+
+Align-content 
+--------------
+only applies when items wrap to multiple lines.
+It aligns whole block of wrapped lines along cross axis
+
+grow----> how much an item should grow.(0)
+shrink--> how much an item should shrink.(1)
+
+flex-grow
+----------
+flex-grow:;(0)
+
+flex-shrink 
+------------
+flex-shrink:;(1)
+
+flex-basis
+-----------
+initial size of a flex item.
