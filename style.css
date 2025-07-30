@@ -4,31 +4,79 @@
   box-sizing: border-box;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  flex-wrap: wrap;
-  align-content: center;
-
-  border: 1px solid black;
-  /* width: 500px; */
-  height: 500px;
-  margin: 30px auto;
-  margin: 10px;
-  padding: 10px;
+body {
+  height: 100vh;
+  background-color: rgb(44, 46, 86);
 }
 
-.container > div {
-  width: 100px;
-  height: 100px;
-  background-color: aqua;
-  flex-shrink: 1;
+.red {
+  background-color: rgb(236, 51, 55);
+}
+.green {
+  background-color: rgb(109, 191, 79);
+}
+.yellow {
+  background-color: rgb(251, 178, 48);
+}
+
+.container {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 10px;
+
+  width: 1000px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* child1 */
+
+.container > .child1 {
+  flex-grow: 1;
+
+}
+
+/* child2  */
+
+
+.container > .child2 {
+  flex-grow: 1.75;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+}
+
+.container > .child2 > .gchild1 {
   flex-grow: 1;
 }
 
+.container > .child2 > .gchild2 {
+  flex-grow: 1;
 
-.container>.child1{
-  flex-basis: 200px;
+
+  display: flex;
+  gap: 10px;
+}
+
+.container > .child2 > .gchild2>.ggchild1{
+  flex-grow: 1;
+}
+
+.container > .child2 > .gchild2>.ggchild2{
+flex-grow: 1;
+}
+
+.container > .child2 > .gchild3 {
+  flex-grow: 1;
+}
+
+/* child3  */
+
+.container > .child3 {
+  flex-grow: 1;
 }
