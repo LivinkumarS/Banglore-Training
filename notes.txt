@@ -375,6 +375,8 @@ display: none; ---> the element will be removed from document.
 
 Flex
 ------ (display: flex;)
+
+>>1D Layout system.
 1) Flex container
 --------------------
 the parent element where display:flex; prop is applied.
@@ -433,3 +435,36 @@ flex-shrink:;(1)
 flex-basis
 -----------
 initial size of a flex item.
+
+Grid 
+-----------
+>>2D layout system
+>>can control both rows and columns.
+
+display: grid;
+ makes an element a grid container.
+ all the direct children will become grid items.
+
+>> we are going to create the layout first. then arragne the item in it.
+
+Defining rows and columns.
+--------------------------------
+grid-template-columns: val1 val2 ....;
+grid-template-rows: val1 val2 ....;
+
+val---> can be in px or fr---> fractional value.
+
+Gap 
+-----
+column-gap: val;
+row-gap;
+gap:;
+
+Placing Items 
+--------------
+By default, gris items are placed in source order.
+
+grid-column: start/ end ;
+grid-row: start/ end;
+
+grid-area: rs/ cs/ re/ ce;
