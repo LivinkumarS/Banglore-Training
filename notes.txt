@@ -468,3 +468,21 @@ grid-column: start/ end ;
 grid-row: start/ end;
 
 grid-area: rs/ cs/ re/ ce;
+
+Media queries 
+--------------
+Media queries allow CSS to be applied conditionally, based on the device's characteristics like screen size(width), orirntation.
+
+syntax:
+--------
+
+@media condition {
+    /* styles */
+}
+
+condition---> max-width, min-width.
+(max-width: 1000px) ---> 0-1000px.
+(min-width: 1000px) ---> 1000px or greater.
+
+700px to 900px ---> max-width:900px. min-width:700px. 
+and---> to combine to conditions.
